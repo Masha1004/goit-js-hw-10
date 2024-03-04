@@ -18,7 +18,7 @@ form.addEventListener('submit', evt => {
             } else {
                 reject(`❌ Rejected promise in ${delay}ms`);
             }
-        }, delay);
+        }, Number(delay));
     });
 
     promise
